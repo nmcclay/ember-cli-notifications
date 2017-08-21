@@ -8,14 +8,14 @@
 @value --notification-border-radius: 3px;
 
 /* Colours */
-@value --red from '../addon';
-@value --blue from '../addon';
-@value --green from '../addon';
-@value --orange from '../addon';
+@value --error-colour from 'colour-variables';
+@value --info-colour from 'colour-variables';
+@value --success-colour from 'colour-variables';
+@value --warn-colour from 'colour-variables';
 
 /* Spacing */
-@value --spacing-1 from '../addon';
-@value --spacing-2 from '../addon';
+@value --spacing-1: .5rem;
+@value --spacing-2: 1rem;
 
 /* Base */
 .c-notification {
@@ -89,22 +89,22 @@
 /* Theme */
 .c-notification--info {
   composes: c-notification;
-  background-color: --blue;
+  background-color: --info-colour;
 }
 
 .c-notification--success {
   composes: c-notification;
-  background-color: --green;
+  background-color: --success-colour;
 }
 
 .c-notification--warning {
   composes: c-notification;
-  background-color: --orange;
+  background-color: --warn-colour;
 }
 
 .c-notification--error {
   composes: c-notification;
-  background-color: --red;
+  background-color: --error-colour;
 }
 
 /* Keyframes */
