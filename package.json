@@ -46,6 +46,7 @@
     "basscss-darken": "^1.1.0",
     "basscss-forms": "^1.0.0",
     "broccoli-asset-rev": "^2.4.5",
+    "caniuse-lite": "^1.0.30000757",
     "code-highlight-linenums": "^0.2.1",
     "ember-ajax": "^3.0.0",
     "ember-cli": "~2.14.2",
