@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-notifications",
-  "version": "4.2.3",
+  "version": "4.2.4",
   "description": "Atom inspired notification messages for ember-cli",
   "keywords": [
     "ember-addon",
@@ -49,7 +49,7 @@
     "code-highlight-linenums": "^0.2.1",
     "ember-ajax": "^3.0.0",
     "ember-cli": "~2.16.2",
-    "ember-cli-dependency-checker": "^2.0.0",
+    "ember-cli-dependency-checker": "^2.1.0",
     "ember-cli-eslint": "^4.0.0",
     "ember-cli-github-pages": "0.1.2",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
