@@ -28,9 +28,10 @@
   "dependencies": {
     "broccoli-funnel": "^1.2.0",
     "ember-cli-babel": "^6.6.0",
+    "ember-cli-dependency-checker": "^2.1.0",
     "ember-cli-htmlbars": "^2.0.1",
     "ember-css-modules": "^0.7.3",
-    "ember-get-config": "0.2.2",
+    "ember-get-config": "0.2.4",
     "ember-runtime-enumerable-includes-polyfill": "^2.0.0",
     "font-awesome": "^4.7.0",
     "postcss-cssnext": "^3.0.2"
@@ -49,7 +50,6 @@
     "code-highlight-linenums": "^0.2.1",
     "ember-ajax": "^3.0.0",
     "ember-cli": "~2.16.2",
-    "ember-cli-dependency-checker": "^2.1.0",
     "ember-cli-eslint": "^4.0.0",
     "ember-cli-github-pages": "0.1.2",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
